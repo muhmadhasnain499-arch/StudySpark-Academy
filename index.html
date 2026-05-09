@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Academy | Learning Portal</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background-color: #f9f9f9; color: #333; }
+        header { background: #1a237e; color: white; padding: 60px 20px; text-align: center; }
+        nav { background: #303f9f; padding: 15px; text-align: center; position: sticky; top: 0; }
+        nav a { color: white; margin: 0 20px; text-decoration: none; font-weight: bold; font-size: 18px; }
+        .hero { padding: 50px 20px; text-align: center; background: white; }
+        .container { max-width: 1100px; margin: 20px auto; padding: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 25px; border-radius: 10px; shadow: 0 4px 8px rgba(0,0,0,0.1); border-top: 5px solid #1a237e; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .card h3 { color: #1a237e; margin-bottom: 10px; }
+        footer { background: #1a237e; color: white; text-align: center; padding: 30px; margin-top: 50px; }
+        .btn { background: #ff5722; color: white; padding: 10px 25px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Academic Portal</h1>
+    <p>Empowering Students through Quality Education</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Shaping the Leaders of Tomorrow</h2>
+    <p>Hamara maqsad har talib-e-ilm ko asaan aur behtreen taleem faraham karna hai.</p>
+    <a href="#courses" class="btn">Explore Courses</a>
+</section>
+
+<div class="container" id="courses">
+    <div class="card">
+        <h3>Mathematics</h3>
+        <p>Algebra se lekar Calculus tak, sab kuch asaan urdu aur english mein seekhein.</p>
+    </div>
+    <div class="card">
+        <h3>Computer Science</h3>
+        <p>Programming, AI, aur Web Development ki dunya mein qadam rakhein.</p>
+    </div>
+    <div class="card">
+        <h3>English Literature</h3>
+        <p>Grammar aur literature par uboor hasil karne ke liye hamare sath judein.</p>
+    </div>
+</div>
+
+<footer id="contact">
+    <p><b>Email:</b> contact@myacademy.com | <b>Phone:</b> +92 300 1234567</p>
+    <p style="margin-top: 10px;">&copy; 2026 My Academic Website. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
